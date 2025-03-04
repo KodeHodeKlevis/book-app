@@ -1,0 +1,133 @@
+/* Global Reset and Body Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background: #6c5ce7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Book List Styles */
+.books-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.books-list div {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.books-list div:hover {
+  transform: scale(1.05);
+}
+
+.books-list img {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+/* Category Menu */
+.category-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-menu button {
+  background: #a29bfe;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.category-menu button:hover {
+  background: #6c5ce7;
+}
+
+/* Input Styles */
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4834d4;
+}
+
+/* Book Detail Page */
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #6200ea;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #3700b3;
+}
