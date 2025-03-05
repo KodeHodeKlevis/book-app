@@ -41,8 +41,8 @@ nav a:hover {
 
 .books-list div {
   background: white;
-  padding: 15px;
-  border-radius: 12px;
+  padding: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
 }
@@ -104,30 +104,4 @@ button {
 
 button:hover {
   background: #4834d4;
-}
-
-/* Book Detail Page */
-div {
-  text-align: center;
-  margin: 20px;
-}
-
-img {
-  max-width: 200px;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-button {
-  background: #6200ea;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-button:hover {
-  background: #3700b3;
 }
